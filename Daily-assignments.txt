@@ -1,0 +1,15 @@
+9th-Feb
+------------
+Assignment-1 (Fork-join)
+replace numbers with Account objects with random initial balance. 
+Use a loop for this. Show the total of balance using Fork-join.
+//assignment-2 (Lambda)
+1. Define a Lambda function which accepts an array of numbers and returns the same
+array after incrementing all numbers by 2.
+2. Define a Lambda function which accepts an array of numbers and returns the same
+array after incrementing all even numbers by 2.
+3. Define a Lambda function which accepts two parameters a)an array of numbers and 
+b) incrementValue(say x)
+It returns the incremented  array after incrementing all even numbers by x. Implement it with Custom Functional interface.
+4. Define a Lambda function which accepts an array of numbers and returns the sum of every third number in the array.
+ .
