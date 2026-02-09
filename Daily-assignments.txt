@@ -1,0 +1,5 @@
+9th-Feb
+------------
+Assignment-1 (Fork-join)
+replace numbers with Account objects with random initial balance. 
+Use a loop for this. Show the total of balance using Fork-join.
