@@ -10,5 +10,6 @@ array after incrementing all numbers by 2.
 array after incrementing all even numbers by 2.
 3. Define a Lambda function which accepts two parameters a)an array of numbers and 
 b) incrementValue(say x)
-It returns the incremented  array after incrementing all even numbers by x.
+It returns the incremented  array after incrementing all even numbers by x. Implement it with Custom Functional interface.
+4. Define a Lambda function which accepts an array of numbers and returns the sum of every third number in the array.
  .
