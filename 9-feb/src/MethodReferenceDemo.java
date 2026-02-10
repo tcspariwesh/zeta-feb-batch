@@ -1,0 +1,23 @@
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+class Util {
+     int square(int x) {
+        return x * x;
+    }
+     static int sum(int x,  int y ) {
+         return x * y;
+     }
+}
+
+public class MethodReferenceDemo{
+	public static void main(String[] args) {
+//		Util.square(2);
+		Util util = new Util();
+		Function<Integer, Integer> reference = util::square;
+		System.out.println(reference.apply(2));
+		
+		BiFunction<Integer, Integer, Integer> referenceSum = Util::sum;
+		System.out.println(referenceSum.apply(2,5));
+	}
+}
