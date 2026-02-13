@@ -10,6 +10,28 @@ Unit testing
 		</dependency>
 
 	</dependencies>
+----------------------------------------
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int divide(int a, int b) {
+        return a / b;
+    }
+}
+---------------------------------------------------
+class CalculatorTest {
+
+    @Test
+    void testAdd() {
+        Calculator calc = new Calculator(); //Arrange
+        int result = calc.add(2, 3); //act
+
+        assertEquals(4, result);//assert
+    }
+}
 
 shared files: https://drive.google.com/drive/folders/1LMTK-VknMTI_TkV_UzEttqCdwit2USFW
 ----------------
