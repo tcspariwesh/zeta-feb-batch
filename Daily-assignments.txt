@@ -1,3 +1,16 @@
+Unit testing
+--------------
+
+<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+			<version>5.10.0</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
 shared files: https://drive.google.com/drive/folders/1LMTK-VknMTI_TkV_UzEttqCdwit2USFW
 ----------------
 
